@@ -1,0 +1,161 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar {
+  max-height: 50px;
+  display: flex;
+  background-color: #323232;
+  color: white;
+  float: left;
+  align-items: center;
+  width: 100%;
+}
+
+.nav {
+  padding-left: 0px;
+  width: 75%;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon{
+  font-size: 1.5rem;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+.navbar-log {
+  font-size: 2rem;
+  margin: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.fa-ticket-alt {
+  transform: rotate(25deg);
+  padding-right: 10px;
+  width: 5%;
+  height: 10%;
+}
+
+.nav-link {
+  float: left;
+  padding: 10px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.nav-link a:hover,
+.dropdown button:hover, .dropdown-content a:hover {
+  color: #00adb5;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .drop-btn {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+
+.drop-btn {
+  padding: 10px 10px 0 10px;
+}
+
+.dropdown-content {
+  padding-top: 18px;
+  display: none;
+  position: absolute;
+  background-color: #323232;
+  min-width: 130px;
+  z-index: 5;
+}
+
+.dropdown-content a {
+  font-size: 1rem;
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a, .nav-link, .dropdown{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+.dropdown-content a:hover {
+  background-color: #52616b;
+}
+
+.vertical-divider {
+  display: inline-block;
+  border-right: 1px solid white;
+  height: 30px;
+  margin: 0 15px;
+}
+
+.nav-divider {
+  display: flex;
+  border: 1.5px solid #00adb5;
+  margin: 0;
+}
+
+.nav-right {
+  display: inline-flex;
+  justify-content: right;
+  float: right;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+}
+.user-btn {
+  padding: 10px;
+}
+
+.svg-inline--fa.fa-w-16 {
+  width: auto;
+  height: 1.3em;
+}
+
+.logout{
+  min-width: auto;
+  margin: auto;
+  right: initial;
+  right: 0;
+  padding-top: 6px;
+}
+
+.logout a{
+  font-size: 1rem;
+  left: initial;
+  text-align: right;
+  cursor: pointer;
+}
+
+.logout a:hover {
+  background-color: #52616b;
+}
+
+
